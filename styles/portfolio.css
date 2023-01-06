@@ -24,7 +24,7 @@ header {
     font-size: 20px;
     color: white;
     border: 0;
-    padding: 17px 35px;
+    padding: 17px 15px;
 }
 
 .btn-contact {
@@ -43,6 +43,14 @@ header {
 .btn {
     display: flex;
 
+}
+.ibrahim-img{
+    /* border-radius: 50%; */
+    border-radius: 10% 30% ;
+    width: 400px;
+    height: 400px; 
+    margin: 150px 250px 40px;
+    /* margin-left: 70px; */
 }
 
 /* Header and navigation styles */
@@ -241,7 +249,7 @@ section {
     display: flex;
     gap: 117px;
     background: #FFF8F3;
-    padding: 130px 230px;
+    padding: 130px 230px 30px;
 }
 
 .contact input[type="text"],
@@ -285,4 +293,18 @@ textarea {
 
 .resume-title{
     width: 400px;
+}
+.social-icons{
+    padding: 15px 0;
+}
+
+.social-icons a{
+    padding-right: 5px;
+    padding-left: -5px;
+
+}
+
+footer{
+    text-align: center;
+    background: #FFF8F3;
 }
